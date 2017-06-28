@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colombo Camps Community</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/CCC Favicon3.ico">
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style>
+      html,body {
+		height: 100%;
+        
+      }
+	  #ticker ul.tweet_list {
+    height:4em;
+    overflow-y:hidden;
+}
+#ticker .tweet_list li {
+    height: 4em;
+}
+    </style>
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/cdc.css" rel="stylesheet">
+	
+	
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "d5f0a275-d7c1-4b31-ae09-bfe30bce6f67", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/gcal-events.min.js"></script>
+	<script type="text/javascript">
+	
+		var googleCalendarId="colombocamps@gmail.com";
+		//var googleCalendarId="colombocamps@gmail.com";
+		var googleCalendarApiKey="AIzaSyB49RxLqpuW2WsCQYc-gGTpaTOv0N0iLQI";
+		var maxGcalEvents = 5;
+		var colorBox=["green","red","#e2e2e2"];	
+		//optional parameters-----------------------------------------------
+		//var colorBox=["green","red"];	
+	
+	</script>
+<style>
+.event-header{
+	background:none !important;
+	color:rgb(141, 82, 35) !important;
+	font-weight:bold !important;
+	font-size:14px !important;
+	width: 175px !important;
+	text-shadow:3px 1px #FFFFFF;
+}
+
+.event-body{
+	margin-top: 60px !important;
+	color:#0C82E9 !important;
+	background:none !important;
+	height:200px !important;
+	font-weight:bold !important;
+	font-size:22px !important;
+	padding: 40px 5px 5px 5px !important;
+}
+</style>
+	
+</head>
+<body>
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=111675902276397";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="navbar navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="http://www.colombocamps.com"></a>
+				<div class="nav-collapse collapse">
+					<ul class="nav pull-right">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li ><a href="meetups.html">Meetups</a></li>
+						<li ><a href="conferences.html">Conferences</a></li>
+						<li><a href="camps.html">Camps</a></li>
+						<!--<li><a href="forum.html">Forum</a></li>-->
+						<li><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+	<br/>
+	<header id="overview" class="jumbotron">
+<div class="container">
+		<h2 class="camps-heading"><font color=#0D6EC3>Upcoming Events</font></h2>
+		
+			
+	
+		<br/>
+	
+    
+		
+<div class="container" id="gcal">
+
+  </div>
+		
+</div>
+	</header>
+	
+	
+		<br/>
+	
+    
+	<div class="wrapper">
+<div class="container">	
+	<div class="container">
+		
+		
+
+		
+	<div class="row">
+			<div class="span6 into">			
+				<h1 class="feature" >About us</h1>
+				
+				<p >
+					The Colombo Camps Community is an independent community of software developers, with a common goal of improving the competencies of members of the Sri Lankan IT community. This concept of forming the community came about with the ideas of technical personal of the local IT industry, in an effort to bridge the gaps in terms of knowledge and skills. This initiative is a collective attempt to place Sri Lanka on the global map as a hub for IT knowledge services. This community has hosted various forums in the recent past, right from agile methodologies to iPhone developer sessions.
+					<br/><br/>
+					The community has hosted various forums in the recent past, right from agile methodologies to iPhone developer sessions. These were organized under three categories namely MeetUps, Camps and Conferences. With the participation of local masterminds and internationally recognized professionals, all these events were highly acclaimed by the participants and the industry professionals alike.
+				</p>
+				
+			</div>
+			<div class="span6">
+				<h1 class="feature">Connect on YouTube</h1>
+					<iframe width="540" height="280" src="http://www.youtube.com/embed/?listType=user_uploads&list=colombocamps&showinfo=1" frameborder="1" allowfullscreen></iframe>					
+			</div>
+			</div>
+			<br/>
+			</div>
+<div>
+<br/>
+<h1>Our Initiatives</h1>			
+	<div class="row">
+		
+	<div class="span4">
+		<h3>Conferences</h3>
+		<div>
+		<table border="0">
+			<tr>
+			<td><a href='http://www.spec.lk/' target="_blank"><img class="event-logo" src="img/spec.png" alt= "spec"width="100" height="100"></a></td>
+			<td><a href='http://www.colomboagileconference.com/' target="_blank"><img class="event-logo" src="img/agile-conference-logo.png" alt= "agile conference"width="90" height="90"></a></td>
+			</tr>
+		</table>		
+		</div>
+	</div>
+	<div class="span4">
+		<h3>Camps</h3>
+		<div>
+		<table border="0">
+			<tr>
+			<td><a href='http://www.colomboiphonedevcamp.com/' target="_blank" ><img class="event-logo" src="img/i phone.png" alt= ""width="100" height="100"></a></td>
+			<td><a href='http://www.colombosharepointcamp.com/' target="_blank"><img class="event-logo" src="img/sp-camp-logo.png" alt= "spcamp camp"width="100" height="100"></a></td>
+			</tr>
+			<tr>
+			<td><img   src="img/code_camp.png" alt= "code camp"width="100" height="100"></td>
+			<td><a href="http://www.colomboagilecamp.com/" target="_blank" ><img class="event-logo" src="img/agile-camp-logo.png" alt= "agcamp"width="90" height="90"></a></td>		
+			</tr>
+		</table>			
+		</div>
+	</div>
+		
+	<div class="span4">
+		<h3>Meetups</h3>
+		<div>
+				<table border="0">
+			<tr>
+			<td><a href='http://www.meetup.com/Colombo-Architecture-Meetup/' target="_blank"><img class="event-logo" src="img/CAM.png" alt= "colombo architectur meetup"width="90" height="90"></a></td>
+			<td><a href='http://www.meetup.com/colombo-selenium' target="_blank"><img  class="event-logo"src="img/selenium_meetup.png" alt= "selenium meetup"width="100" height="100"></a></td>
+			</tr>
+			<tr>
+			<td><a href='https://www.owasp.org/index.php/Sri_Lanka' target="_blank"><img class="event-logo" src="img/owasp.png" alt= "security meetup"width="100" height="100"></a></td>
+			<td><a href='http://www.meetup.com/ColomboPerfTestMeetup/' target="_blank"><img  class="event-logo"src="img/Perftest Meetup Logo.png" alt= "perftest meetup"width="130" height="100"></a></td>		
+			</tr>
+		</table>			
+		</div>
+		
+	</div>
+	</div>
+<br/>	
+
+</div>
+
+
+<h1>Journey so far..</h1>
+<iframe src='http://embed.verite.co/timeline/?source=0Ak6TJbmkv_S8dExyNVNtOFUtd25mN015N19HWEtHWWc&font=PTSerif-PTSans&maptype=toner&lang=en&start_at_end=true&start_zoom_adjust=6&height=400' width='100%' height='400' frameborder='0'></iframe>  
+<hr>  
+</div> <!-- /container -->  
+		
+		
+</div> <!-- /container -->
+</div>
+</div>
+<br/>
+	<footer class="footer">
+	
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					
+				</div>
+				<div class="span9">
+					<div class="row">
+						<div class="span9">
+						<center>
+							<p class="footer-social-icons">
+								<span>Connect with us</span>
+								<a class="facebook" href="https://www.facebook.com/pages/Colombo-Camps-Community/365880556866148" target="_blank" ></a>
+								<a class="twitter" href="https://twitter.com/CMBCamps" target="_blank" ></a>
+								<a class="youtube" href="http://www.youtube.com/user/ColomboCamps?feature=guide" target="_blank" ></a>
+							</p>
+							</center>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="row">
+				<div class="span12 ">
+					
+				</div>
+			</div>
+				
+		</div>
+		<h3><center>Colombo Camps Community | To improve competencies of Sri Lankan software developers</center></h3>
+	</footer>
+	
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

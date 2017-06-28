@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colombo Camps Community</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/CCC Favicon3.ico">
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style>
+      html, body {
+            height: 100%;
+        }
+
+
+    </style>
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/lionbars.css" type="text/css" />
+	<link href="css/cdc.css" rel="stylesheet">
+	
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<script type="text/javascript">
+jQuery(function ($) {
+    $("#ticker").tweet({
+        username: "microsoft", // define your twitter username
+        page: 1,
+        avatar_size: 32, // avatar size in px
+        count: 20, // how many tweets to show
+        loading_text: "loading ..."
+    }).bind("loaded", function () {
+        var ul = $(this).find(".tweet_list");
+        var ticker = function () {
+                setTimeout(function () {
+                    ul.find('li:first').animate({
+                        marginTop: '-4em'
+                    }, 500, function () {
+                        $(this).detach().appendTo(ul).removeAttr('style');
+                    });
+                    ticker();
+                }, 4000); // duration before next tick (4000 = 4 secs)
+            };
+        ticker();
+    });
+});
+</script>
+	<div class="wrapper">
+	<div class="container">	
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="http://www.colombocamps.com"></a>
+				<div class="nav-collapse collapse">
+					<ul class="nav pull-right">
+						<li ><a href="index.html">Home</a></li>
+						<li class="active"><a href="meetups.html">Meetups</a></li>
+						<li ><a href="conferences.html">Conferences</a></li>
+						<li><a href="camps.html">Camps</a></li>
+						<!--<li><a href="forum.html">Forum</a></li>-->
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+<br/>	
+<div class="container">
+<div class="row">
+<div class="span12 into ">			
+				<h1>Meetups</h1>				
+				<p >Meetups are an integral part of the Colombo Camps Community as sessions are frequently held on different aspects in Software Development.
+				The Colombo Camps Community host meetups on areas such as Software Architecture, Security and Test Automation etc. where the interest groups get together
+				to discuss one or few important topics.</p><br/>
+</div>
+</div><br/>
+<div >								
+	<div class="row">
+		
+			<div class="span6 " >
+				
+				<a href='http://www.meetup.com/Colombo-Architecture-Meetup/' target="_blank"><img class="event-logo" src="img/CAM.png" alt= "Colombo Architecture Meetup" width="100" height="100"></a><br/>
+				<h3>Colombo Architecture Meetup</h3>	
+				
+				<p class="into">Colombo architecture meetup is a community event among professionals who involved in software design and  development. This is an open
+				event for software architects and technical leads in the industry. This event is basically to discuss about the latest trends and commonly faced
+				challenges in software architecture.  Highly experienced software professionals conduct sessions on topics selected by the community. This event also
+				include some case studies and workshops.<br/><br/></p>
+					<p>Official Website : <a href='http://www.meetup.com/Colombo-Architecture-Meetup/' target="_blank">www.meetup.com/Colombo-Architecture-Meetup</a> |  <a href="https://www.facebook.com/ColomboArchitectureMeetup" target="_blank"><img class="social-logo" src="img/facebook.png" alt= "facebook" width="32" height="32"></a><br/>
+				</p>
+			</div>
+			
+			<div class="span6" >
+			
+			<a href='http://www.meetup.com/colombo-selenium' target="_blank"><img class="event-logo" src="img/selenium_meetup.png" alt= "Colombo Selenium Meetup" width="100" height="100"></a><br/>
+			
+			<h3>Colombo Selenium Meetup</h3>
+			
+				<p class="into" >The Colombo Selenium Meet-up is an open forum where Selenium users of all skill levels can come to communicate, learn, network,or just
+				have a good time. We are meeting once a month and generally have speakers from major software and web companies in the area, which will be followed by
+				Q&A session. Our focus is in Selenium and topics extend through related areas of interest, such as Agile testing, Test-Driven Development, Continuous
+				Integration, Continuous Deployment, building maintainable automated test scripts and much more.<br/><br/></p><p>
+				Official Websites : <a href='http://www.meetup.com/colombo-selenium' target="_blank">www.meetup.com/colombo-selenium</a> | <a href='http://seshell.org/' target="_blank">seshell.org</a> <br/>
+				</p>
+			</div>
+			
+	</div>
+	<br/>
+	<div class="row" >		
+			
+			<div class="span6" >
+			<a href='https://www.owasp.org/index.php/Sri_Lanka' target="_blank"><img class="event-logo"  src="img/owasp.png" alt= "Colombo Security Meetup" width="150" height="100"></a><br/>
+			
+			<h3>Colombo Security Meetup</h3>
+											
+				<p class='into'>Colombo Security Meetup is the srilankan chapter of OWASP.  This is the first ever information security meetup in srilanka, which is
+				mainly focused on Application Security. Being free and open to everyone, Colombo Security Meetup is the ideal place to meet Srilankan information
+				security professionals and to discuss discuss about latest application security trends, testing environments, security tools, guidelines and checklists
+				that help software companies to produce secured codes. Colombo Security Meetup is a fantastic place to learn about application security, to netrwork and
+				even to build your reputation as an expert.<br/></p><p>
+				<br/>Official Website : <a href='http://www.meetup.com/Colombo-Security-Meetup/' target="_blank">www.meetup.com/Colombo-Security-Meetup</a> | <a href="https://www.facebook.com/owaspslchapter" target="_blank"><img class="social-logo" src="img/facebook.png" alt= "facebook" width="32" height="32"></a> <br/>
+				</p>
+			</div>
+			
+			
+			<div class="span6" >
+			<a href='http://www.meetup.com/ColomboPerfTestMeetup/' target="_blank"><img class="event-logo" src="img/Perftest Meetup Logo.png" alt= "Colombo Performance Testing Meetup " width="200" height="100"></a><br/>
+
+			<h3>Colombo Performance Testing Meetup</h3>
+			
+			<p >The Colombo PerfTest Meetup will bring together the local performance test engineers, architects, designers, developers and anyone who is interested in
+			software applications performance. Our mission is to facilitate professionals in designing and developing faster software applications. This gathering will
+			allow you to present the experience in application performance engineering, learn latest trends from experts and network with your peers.</p></br>
+			   <p>Official Website : <a href='http://www.meetup.com/ColomboPerfTestMeetup/' target="_blank">www.meetup.com/ColomboPerfTestMeetup</a> |  <a href="https://www.facebook.com/ColomboPerfTestMeetup" target="_blank"><img class="social-logo" src="img/facebook.png" alt= "facebook" width="32" height="32"></a> <a href="http://www.linkedin.com/groups/Colombo-PerfTest-Meetup-4381815" target="_blank"><img class="social-logo" src="img/linkedin-small.png" alt= "Linkedin" width="32" height="32"></a><br/>
+
+				</p>
+</div>
+</div><br/>
+<div >								
+	<div class="row">
+		
+			<div class="span6 " >
+				
+				<a href='http://www.meetup.com/Colombo-Mobile-Developer-Meetup/' target="_blank"><img class="event-logo" src="img/Mobile-dev-meetup-Logo.png" alt= "Colombo Mobile Developer Meetup" width="100" height="100"></a><br/>
+				<h3>Colombo Mobile Developer Meetup</h3>	
+				
+				<p class="into">Colombo Mobile Developer Meetup is the ideal platform for industry software professionals working (or having the interest) on
+				Mobile Development to meet and discuss on various aspects of Developing/Designing of Mobile solutions. With the emergence of M-Commerce,
+				Mobile Application Development is heading to a different dimension, making it hard for Mobile Developers to keep up with this rapidly changing field.
+				Colombo Mobile Developer Meetup intends to provide a platform to share knowledge with enhanced learning experience in order to address emerging technologies and mobility needs of users.<br/><br/></p>
+					<p>Official Website : <a href=http://www.meetup.com/Colombo-Mobile-Developer-Meetup/ target="_blank">www.meetup.com/Colombo-Mobile-Developer-Meetup</a> |  <a href=https://www.facebook.com/ColomboMobileDeveloperMeetup target="_blank"><img class="social-logo" src="img/facebook.png" alt= "facebook" width="32" height="32"></a><br/>
+				</p>
+			</div>
+			
+			<div class="span6" >
+				
+	</div>
+	<br/>
+	<div class="row" >						
+			</div>
+    </div>
+</div>				
+					
+	</div>
+				<!-- /.tabbable -->
+					</div>
+				</div>
+			<br/>
+<footer class="footer">
+	
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					
+				</div>
+				<div class="span9">
+					<div class="row">
+						<div class="span9">
+						<center>
+							<p class="footer-social-icons">
+								<span>Connect with us</span>
+								<a class="facebook" href="https://www.facebook.com/pages/Colombo-Camps-Community/365880556866148" target="_blank" ></a>
+								<a class="twitter" href="https://twitter.com/CMBCamps" target="_blank" ></a>
+								<a class="youtube" href="http://www.youtube.com/user/ColomboCamps?feature=guide" target="_blank" ></a>
+							</p>
+							</center>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="row">
+				<div class="span12 ">
+					
+				</div>
+			</div>
+				
+		</div>
+		<h3><center>Colombo Camps Community | To improve competencies of Sri Lankan software developers</center></h3>
+	</footer>
+	
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/lionbars.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$('.tab-pane').lionbars({
+		autohide: true
+	});
+	
+	$('.nav-tabs li a').click(function (){
+	
+		$('.tab-pane').lionbars({
+			autohide: true
+		});
+		
+	});
+</script>
+
+</body>
+</html>

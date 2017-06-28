@@ -1,0 +1,524 @@
+body {
+	background: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navbar-inner {
+	background: #FFFFFF !important;
+	border: 0;
+}
+.navbar .brand, .navbar .nav > li > a{
+	font-size: 18px;
+	color: #444444 !important;
+	text-shadow: none;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav .active > a:focus {
+	background: #14a9c9 !important;
+	color: #FFFFFF !important;
+}
+.brand {
+	font-family: 'Open Sans', sans-serif;
+	background: transparent url(../img/col_camp_com.png) no-repeat;
+	width: 170px;
+	height: 50px;
+	margin: 5px 0 0 0;
+	padding: 3px 0 0 0;
+	float: left;
+}
+.full-width-image-1 {
+	background: url(http://lorempixel.com/g/1920/500/) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+@media (min-width: 768px) and (max-width: 3000px) {
+	.navbar .nav > li > a
+	{
+		padding: 30px;
+	}
+}
+.jumbotron {
+    /* background: linear-gradient(45deg, #020031 0%, #6D3353 100%) repeat scroll 0 0 transparent; */
+	background: transparent url(../img/bannergray.jpg) no-repeat center center;
+	/* background: transparent url(../img/bannergray.jpg) no-repeat; */
+	background-size: cover;
+	text-align: center;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    color: #FFFFFF;
+    padding: 60px 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+	height: 400px;
+	width: 100%;
+    margin-top: 0px;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+.jumbotron:after {
+    background: transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.jumbotron:after {
+    background-size: 150px 150px;
+}
+.subhead {
+	margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+/* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    padding: 40px 20px;
+    margin-top:   -20px; /* Offset bottom margin on .navbar */
+    margin-right: -20px;
+    margin-left:  -20px;
+  }
+  
+  .home-register {
+	margin: 0 -20px;
+	text-align: center;
+  }
+}
+
+.home-register {
+	background: #EFF1D2;
+	font-size: 18px;
+	padding: 10px 0 5px;
+}
+.home-register  h1{
+	padding: 10px 0 0 0;
+}
+.home-cta {
+	font-size: 30px;
+	padding: 24px;
+}
+h1.camps-heading {
+	margin: 30px 0 0 0;
+}
+.home-camps {
+	
+}
+.camps {
+	background: #FFFFFF;
+	float: left;
+	margin-top: 30px;
+}
+.topic {
+	height: 60px;
+	background: #549C8B;
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 18px;
+}
+.speaker-name {
+	
+}
+.speaker-title {
+	font-weight: bold;
+	display: block;
+	padding: 5px 10px;
+}
+.img {
+	float: left;
+	margin: 0 10px 0 0;
+
+}
+ul.speaker-links {
+	margin: -15px 5px 5px 0;
+	float: right;
+}
+ul.speaker-links li{
+	margin: 0 5px;
+	float: left;
+}
+.linkedin-icon {
+	width: 32px;
+	height: 32px;
+	float: left;
+	background: transparent url(../img/linkedin.png) 0 0 no-repeat;
+}
+a.learn-more-sessions {
+	margin: 60px 0 0 0;
+	padding: 80px 0 0 0;
+	font-size: 28px;
+	line-height: 30px;
+	text-align: right;
+	float: right;
+	background: transparent url(../img/right.ico) top right no-repeat;
+}
+a.learn-more-sessions:hover {
+	text-decoration: none;
+	color: #F36D30;
+}
+.call-to-action {
+	text-align: center;
+}
+.feature-box  {
+	margin-left:50px;
+}
+.feature-box h1 {
+	padding: 60px 0 0px;
+	line-height: 50px;
+}
+.feature-box  p{
+	line-height: 30px;
+	padding: 20px 0 50px;
+}
+.feature-box  p.into{
+	font-size: 15px;
+	border-bottom: 1px solid #EEEEEE;
+	text-align:justify;
+}
+
+.into{
+text-align:justify;
+}
+
+
+.feature-img {
+	padding: 60px;
+	-ms-interpolation-mode: bicubic;
+}
+.for-whome {
+	margin-left:50px;
+}
+.share-this {
+	margin: 30px 0 100px 20px;
+}
+.for-whome h1.feature{
+	margin: 80px 0 0 20px;
+}
+.for-whome ul {
+	padding: 0;
+	margin: 50px 0 0 20px;
+}
+.for-whome ul li {
+	font-size: 20px;
+	padding: 20px 0 0 40px;
+	height: 40px;
+	background: transparent url(../img/tick_32.png) 0 0 no-repeat;
+}
+.accordion {
+	margin-top: 30px;
+}
+.accordion-heading .accordion-toggle {
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.accordion-heading .accordion-toggle:hover {
+	text-decoration: none;
+}
+.accordion-heading .accordion-toggle:focus {
+    outline: 0;
+	text-decoration: none;
+}
+.note {
+	background: #FAF8E5;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	border: 1px solid #EBE7C8;
+	margin: 30px 0 10px 0;
+	-moz-box-shadow: 0 0 5px 2px #E7E7E7;
+	-webkit-box-shadow: 0 0 5px 2px #E7E7E7;
+	box-shadow: 0 0 5px 2px #E7E7E7;
+}
+.bold {
+	font-weight: bold;
+}
+.contact-info li{
+	font-size: 20px;
+	line-height: 30px;
+	padding: 15px 0;
+}
+.contact-info li .info {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+}
+.social-icons a {
+	float: left;
+	width: 70px;
+	height: 70px;
+	background: #AAA;
+	margin: 10px 20px 0 0;
+}
+
+
+
+p.footer-social-icons {
+	display: block;
+	clear: both;
+	margin: 30px 0;
+}
+p.footer-social-icons span {
+    color: #FFFFFF;
+    float: left;
+    font-size: 21px;
+    margin: 34px 0 0;
+    padding: 0 30px 0 0;
+}
+.social-icons a.facebook, p.footer-social-icons > a.facebook {
+	background: transparent url(../img/facebook-icon.png) 0 0 no-repeat;
+}
+.social-icons a.twitter, p.footer-social-icons > a.twitter  {
+	background: transparent url(../img/twitter-icon_L.png) 0 0 no-repeat;
+}
+.social-icons a.youtube, p.footer-social-icons > a.youtube {
+	background: transparent url(../img/youtube.png) 0 0 no-repeat;
+}
+.footer-social-icons a {
+	float: left;
+	width: 70px;
+	height: 70px;
+	background: #AAA;
+	margin: 10px 20px 0 0;
+}
+
+
+.footer {
+
+	background: #000000;
+	padding: 0 10px 10px 10px;
+	margin: 50px 0 0 0;
+	text-align:right;
+	color:#EFF1D2;
+	
+	
+}
+.event-topics {
+	margin-top: 20px;
+}
+.event-topics .span3 {
+	margin-top: 30px;
+}
+.speaker-topic {
+	background: #569E8C;
+	float: left;
+	color: #ffffff;
+	width: 100%;
+}
+.tab-pane {
+	height: 350px;
+}
+.lb-content {
+	padding: 5px !important;
+}
+.event-topics .tabbable {
+	margin: 0;
+	background: #EEEEEE;
+}
+.nav-tabs {
+	background: #FFFFFF;
+	border: 1px solid #7aac43;
+	border-top: 0;
+}
+.nav-tabs > li {
+	margin: 0;
+}
+.nav-tabs > li > a {
+	font-size: 15px;
+	border-radius: 0;
+	border: 0;
+	background: #FFFFFF;
+	padding: 10px 17px;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	background: #7aac43;
+	color: #FFFFFF;
+	border: 0;
+}
+.speaker-topic img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.speaker-topic a {
+	color: #FFD300;
+}
+.speaker-topic a:hover{
+	text-decoration: none;
+	color: #8CD7FF;
+}
+.tab-pane h3 {
+	font-size: 18px;
+	line-height: 24px;
+	color: #111;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	width: 255px;
+}
+.tab-pane p {
+	font-size: 13px;
+	line-height: 22px;
+	width: 245px;
+	padding: 0 0 20px 0;
+}
+.event-address {
+	float: left;
+	width: 280px;
+	font-size: 18px; 
+	line-height: 25px;
+}
+.event-address p {
+	margin: 20px 0 0 0;
+}
+.footer h3 {
+	color: #FFFFFF;
+	
+}
+.footer ul li{
+	color: #FFFFFF;
+	padding: 10px 0;
+	font-size: 17px;
+}
+.footer .info {
+	display: block;
+	font-size: 14px;
+	margin: 0 0 3px 0;
+}
+.footer-social-feed {
+	margin: 20px 0 0 0;
+	width: 540px;
+	float: right;
+}
+.footer-camp-links {
+	padding: 30px 0 0 0;
+}
+.footer-camp-links p{
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 20px 0 10px 0;
+}
+.footer-camp-links a{
+	float: left;
+	width: 140px;
+	height: 60px;
+	margin: 0 20px 10px 0;
+}
+a.ccc-logo {
+	background: transparent url(../img/ccc-logo.png) 0 0 no-repeat;
+}
+a.agile-conference-logo {
+	background: transparent url(../img/agile-conference-logo.png) 0 0 no-repeat;
+}
+a.agile-camp-logo {
+	background: transparent url(../img/agile-camp-logo.png) 0 0 no-repeat;
+}
+a.sp-logo {
+	background: transparent url(../img/sp-camp-logo.png) 0 0 no-repeat;
+}
+a.iphone-logo {
+	background: transparent url(../img/iphone-camp-logo.png) 0 0 no-repeat;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.footer-social-feed  {
+		display: none;
+	}
+	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.footer-social-feed  {
+		display: none;
+	}
+}
+
+.corner{
+border-radius: 15px;
+
+}
+
+img.event-logo {
+    opacity: 1; /* Set this to whatever value you want */
+    filter: alpha(opacity=50);
+}
+
+img.social-logo{
+	opacity: 1; /* Set this to whatever value you want */
+    filter: alpha(opacity=50);
+	}
+
+
+img.event-logo:hover {
+    opacity: 0.8; /* make the images fully opaque */
+    filter: alpha(opacity=100);
+}
+
+img.social-logo:hover{
+	opacity: 0.8; /* make the images fully opaque */
+    filter: alpha(opacity=100);
+	}
+
+.twitter:hover {
+    opacity: 0.8; /* make the images fully opaque */
+    filter: alpha(opacity=100);
+	}
+	
+.facebook:hover {
+    opacity: 0.8; /* make the images fully opaque */
+    filter: alpha(opacity=100);
+	}
+
+.youtube:hover {
+    opacity: 0.8; /* make the images fully opaque */
+    filter: alpha(opacity=100);
+	}
+
+	
+.s_facebook{}
+.s_twitter{}
+.s_youtube{}
+
+.wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -63px;
+        }
+        .push {
+            height: 63px;
+        }
+        /* not required for sticky footer; just pushes hero down a bit */
+        .wrapper > .container {
+            padding-top: 60px;
+        }
+
+.subscribe-image{
+display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
